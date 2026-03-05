@@ -1,4 +1,78 @@
-# ada-assignment-1
+# Algorithm Foundations Lab Assignment
+
+Course: Analysis and Design of Algorithms Lab  
+Semester: IV  
+Program: BTech  
+Course Code: ENCS256  
+
+## Student Information
+Name: Keshav  
+Department: School of Engineering & Technology
+
+
+
+# Assignment Tasks
+
+## Task 1: Algorithm Growth Observation
+Implemented algorithms with different time complexities:
+
+- O(1) Constant Time
+- O(n) Linear Time
+- O(n²) Quadratic Time
+- O(log n) Logarithmic Time
+
+Measured execution time and memory usage for different input sizes and plotted graphs.
+
+
+## Task 2: Best, Average, and Worst Case Analysis
+
+Implemented:
+
+- Linear Search
+- Binary Search
+
+Compared performance for different input sizes and visualized results using graphs.
+
+---
+
+# Task 3: Recursion and Recurrence Validation
+
+Implemented:
+
+- Factorial using recursion
+- Fibonacci using naive recursion
+- Fibonacci using dynamic programming
+
+Compared number of function calls and execution time.
+
+
+
+# Task 4: Recurrence Relations
+
+Implemented recursive algorithms for:
+
+T(n) = T(n/2) + n  
+T(n) = 2T(n/2) + n  
+
+Analyzed number of recursive calls and compared theoretical complexity.
+
+
+
+# Technologies Used
+
+- Python
+- matplotlib
+- memory-profiler
+
+
+
+
+
+
+
+# Code used 
+
+ada-assignment-1
 import time
 import random
 import matplotlib.pyplot as plt
